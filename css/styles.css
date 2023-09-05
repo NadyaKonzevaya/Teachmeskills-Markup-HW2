@@ -38,16 +38,18 @@ body {
   margin-bottom: 71px;
 }
 
-.about__list {
+/* .about__list {
   display: flex;
-}
+  justify-content: space-between;
+} */
 
 .about__list__item {
   width: 370px;
+  display: inline-block;
 }
-.about__list__item:not(:last-child) {
+/* .about__list__item:not(:last-child) {
   margin-right: 30px;
-}
+} */
 
 .about__list__icon {
   border: 1px solid;
